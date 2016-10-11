@@ -27,6 +27,8 @@
         }
 
         $_SESSION['encuestas']++;
+
+        header('Location: gracias.php', true, 302);
     }
 
 ?>
